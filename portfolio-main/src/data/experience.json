@@ -1,0 +1,68 @@
+{
+  "work": [
+    {
+      "id": 1,
+      "company": "Eessan IT Solutions",
+      "position": "Full Stack Developer",
+      "location": "Bengaluru, India",
+      "type": "Full-time",
+      "startDate": "2025-02",
+      "endDate": "2025-02",
+      "current": false,
+      "description": "Lead frontend development for a team of 5 developers, building scalable React applications for enterprise clients.",
+      "achievements": [
+        "Built core features that increased user engagement by 25%",
+        "Designed and implemented RESTful APIs",
+        "Collaborated with design team to create pixel-perfect responsive interfaces"
+      ],
+      "technologies": ["React", "Node.js", "Java", "MongoDb"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "Paavai Engineering College",
+      "degree": "Bachelor of Technology",
+      "location": "Nammakal, Tamil Nadu, India",
+      "startDate": "2021-07",
+      "endDate": "2025-05",
+      "Cgpa": "7.6",
+      "relevant_courses": [
+        "Data Structures and Algorithms",
+        "Database Systems",
+        "Software Engineering",
+        "Computer Networks",
+        "Machine Learning",
+        "Web Development"
+      ],
+      "projects": [
+        "FreshCart: E-Commerce Platform with React and java",
+        "frontend Project: interactive user interface for Clothing clients"
+       
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "credentialId": "AWS-CSA-2023-001",
+      "url": "https://aws.amazon.com/certification/"
+    },
+    {
+      "name": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date": "2023-03",
+      "credentialId": "GCP-PD-2023-001",
+      "url": "https://cloud.google.com/certification/"
+    },
+    {
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "date": "2022-11",
+      "credentialId": "META-REACT-2022-001",
+      "url": "https://developers.facebook.com/certificate/"
+    }
+  ]
+}

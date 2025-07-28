@@ -1,0 +1,72 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, order management, and admin dashboard.",
+      "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
+      "technologies": ["React", "Node.js", "java", " MongoDb", "Tailwind CSS"],
+      "category": "Full Stack",
+      "image": "/api/placeholder/600/400",
+      "liveUrl": "https://ecommerce-demo.com",
+      "githubUrl": "https://github.com/alexjohnson/ecommerce-platform",
+      "featured": true,
+      "status": "Completed",
+      "highlights": [
+        "Mobile-responsive design",
+        "Comprehensive admin dashboard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Clothing Store Website",
+      "description": "A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts.",
+      "longDescription": "Created a comprehensive weather dashboard that provides detailed forecasts, historical data, and severe weather alerts. Features interactive maps and customizable widgets.",
+      "technologies": ["React", "HTML", "Css"],
+      "category": "Frontend",
+      "image": "/api/placeholder/600/400",
+      "liveUrl": "https://vouguevistaclothing.netlify.app/",
+      "githubUrl": "https://github.com/Gokulraj67/VougueVista",
+      "featured": true,
+      "status": "Completed",
+      "highlights": [
+        "Progressive Web App ",
+        "Online functionality",
+        "Interactive User interface",
+        "Push notifications for alerts"
+      ]
+    }
+  ],
+  "other": [
+    {
+      "id": 3,
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode support.",
+      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+      "category": "Frontend",
+      "image": "/api/placeholder/400/300",
+      "liveUrl": "https://portfolio.alexjohnson.dev",
+      "githubUrl": "https://github.com/alexjohnson/portfolio",
+      "featured": true,
+      "status": "Completed",
+      "highlights": [
+        "Progressive Web App ",
+        "Online functionality",
+        "Interactive User interface",
+        "Push notifications for alerts"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "API Rate Limiter",
+      "description": "A Node.js middleware for API rate limiting with Redis backend and configurable limits.",
+      "technologies": ["Node.js", "Redis", "Express"],
+      "category": "Backend",
+      "image": "/api/placeholder/400/300",
+      "githubUrl": "https://github.com/alexjohnson/api-rate-limiter",
+      "featured": false,
+      "status": "Open Source"
+    }
+  ],
+  "categories": ["All", "Full Stack", "Frontend", "Backend", "Mobile", "Open Source"]
+}

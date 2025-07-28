@@ -1,0 +1,26 @@
+{
+  "name": "Gokulraj B ",
+  "title": "Full Stack Developer",
+  "tagline": "Building modern web experiences with passion and precision",
+  "about": {
+    "description": "I'm a passionate full stack developer with 3+ years of experience creating modern, scalable web applications. I love solving complex problems and turning ideas into reality through clean, efficient code.",
+    "highlights": [
+      "3+ years of experience in web development",
+      "Specialized in React, Java and Spring Boot",
+      "Strong focus on user experience and performance",
+      "Passionate about clean code and best practices"
+    ]
+  },
+  "contact": {
+    "email": "Gokulbangarusamy@gmail.com",
+    "phone": "6381196146",
+    "location": "Erode, Tamil Nadu, India",
+    "linkedin": "https://linkedin.com/in/graj67",
+    "github": "https://github.com/Gokulraj67",
+    "website": "https://alexjohnson.dev"
+  },
+  "availability": {
+    "status": "Available for new opportunities",
+    "openToWork": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "icon": "Monitor",
+      "skills": [
+        { "name": "React", "level": 90 },
+        { "name": "Tailwind CSS", "level": 95 },
+        { "name": "JavaScript (ES6+)", "level": 90 },
+        { "name": "HTML5 & CSS3", "level": 95 }
+      ]
+    },
+    {
+      "name": "Backend",
+      "icon": "Server",
+      "skills": [
+        { "name": "Node.js", "level": 85 },
+        { "name": "Java", "level": 80 },
+        { "name": "Spring Boot", "level": 75 },
+        { "name": "SQL", "level": 80 },
+        { "name": "MongoDB", "level": 75 },
+        { "name": "REST APIs", "level": 90 }
+      ]
+    },
+    {
+      "name": "Tools & DevOps",
+      "icon": "Wrench",
+      "skills": [
+        { "name": "Git & GitHub", "level": 90 },
+   
+        { "name": "Spring Boot", "level": 85 },
+        { "name": "intellij", "level": 85 }
+    
+      ]
+    },
+    {
+      "name": "Design & UX",
+      "icon": "Palette",
+      "skills": [
+      
+        { "name": "UI/UX Design", "level": 75 },
+        { "name": "Responsive Design", "level": 90},
+        { "name": "Accessibility", "level": 80 }
+      ]
+    }
+  ]
+}
