@@ -4,85 +4,67 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import profileData from '@/data/profile.json';
+import { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [success, setSuccess] = useState(false);
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!formRef.current) return;
+
+    emailjs
+      .sendForm(
+        'service_iqfma54',
+        'template_v1q6ypy',
+        formRef.current,
+        '2MhY6OwJ5jucDzqG_'
+      )
+      .then(
+        () => {
+          setSuccess(true);
+          formRef.current?.reset();
+        },
+        (error) => {
+          console.error('FAILED...', error.text);
+          setSuccess(false);
+        }
+      );
+  };
+
   return (
     <section id="contact" className="py-20 bg-muted/30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            Get In <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to work together? Let's discuss your project and bring your ideas to life
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Info */}
-          <div className="space-y-6">
-            <Card className="shadow-card border-primary/10">
-              <CardHeader>
-                <CardTitle>Let's Connect</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Mail className="text-primary" size={20} />
-                  <a href={`mailto:${profileData.contact.email}`} className="hover:text-primary transition-colors">
-                    {profileData.contact.email}
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone className="text-primary" size={20} />
-                  <span>{profileData.contact.phone}</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <MapPin className="text-primary" size={20} />
-                  <span>{profileData.contact.location}</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <div className="flex gap-4">
-              <Button variant="outline" size="lg" asChild className="flex-1">
-                <a href={profileData.contact.github} target="_blank" rel="noopener noreferrer">
-                  <Github size={20} className="mr-2" />
-                  GitHub
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild className="flex-1">
-                <a href={profileData.contact.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Linkedin size={20} className="mr-2" />
-                  LinkedIn
-                </a>
-              </Button>
+      {/* ...previous code */}
+      <Card className="shadow-card border-primary/10">
+        <CardHeader>
+          <CardTitle>Send a Message</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Input placeholder="Your Name" name="user_name" required />
+              <Input type="email" placeholder="Your Email" name="user_email" required />
             </div>
-          </div>
-
-          {/* Contact Form */}
-          <Card className="shadow-card border-primary/10">
-            <CardHeader>
-              <CardTitle>Send a Message</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <Input placeholder="Your Name" />
-                  <Input type="email" placeholder="Your Email" />
-                </div>
-                <Input placeholder="Subject" />
-                <Textarea placeholder="Your Message" rows={6} />
-                <Button className="w-full bg-gradient-primary">
-                  <Send size={16} className="mr-2" />
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
+            <Input placeholder="Subject" name="subject" required />
+            <Textarea placeholder="Your Message" name="message" rows={6} required />
+            <Button type="submit" className="w-full bg-gradient-primary">
+              <Send size={16} className="mr-2" />
+              Send Message
+            </Button>
+            {success && (
+              <p className="text-green-600 text-sm mt-2">Message sent successfully!</p>
+            )}
+          </form>
+        </CardContent>
+      </Card>
+      {/* ...remaining code */}
     </section>
   );
 };
+
 
 export default Contact;
