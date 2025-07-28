@@ -24,9 +24,15 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 relative z-10">
         <div className="text-center">
           {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-primary shadow-glow flex items-center justify-center">
-            <span className="text-2xl font-bold text-white">AJ</span>
-          </div>
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-glow border-4 border-primary">
+<img
+  src="/profile@dp.jpg"
+  alt="Profile"
+  className="w-full h-full object-cover"
+/>
+
+</div>
+
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">

@@ -42,11 +42,11 @@
       "id": 3,
       "title": "Portfolio Website",
       "description": "A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode support.",
-      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+      "technologies": ["React", "Tailwind CSS", "vite"],
       "category": "Frontend",
       "image": "/api/placeholder/400/300",
-      "liveUrl": "https://portfolio.alexjohnson.dev",
-      "githubUrl": "https://github.com/alexjohnson/portfolio",
+      "liveUrl": "https://gokulraj-profile.netlify.app/",
+      "githubUrl": "https://github.com/Gokulraj67/Gokulraj",
       "featured": true,
       "status": "Completed",
       "highlights": [
@@ -55,17 +55,6 @@
         "Interactive User interface",
         "Push notifications for alerts"
       ]
-    },
-    {
-      "id": 4,
-      "title": "API Rate Limiter",
-      "description": "A Node.js middleware for API rate limiting with Redis backend and configurable limits.",
-      "technologies": ["Node.js", "Redis", "Express"],
-      "category": "Backend",
-      "image": "/api/placeholder/400/300",
-      "githubUrl": "https://github.com/alexjohnson/api-rate-limiter",
-      "featured": false,
-      "status": "Open Source"
     }
   ],
   "categories": ["All", "Full Stack", "Frontend", "Backend", "Mobile", "Open Source"]

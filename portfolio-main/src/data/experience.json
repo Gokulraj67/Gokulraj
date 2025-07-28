@@ -44,25 +44,12 @@
   ],
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect",
-      "issuer": "Amazon Web Services",
-      "date": "2023-06",
-      "credentialId": "AWS-CSA-2023-001",
-      "url": "https://aws.amazon.com/certification/"
-    },
-    {
-      "name": "Google Cloud Professional Developer",
-      "issuer": "Google Cloud",
-      "date": "2023-03",
-      "credentialId": "GCP-PD-2023-001",
-      "url": "https://cloud.google.com/certification/"
-    },
-    {
-      "name": "React Developer Certification",
-      "issuer": "Meta",
-      "date": "2022-11",
-      "credentialId": "META-REACT-2022-001",
-      "url": "https://developers.facebook.com/certificate/"
+      "name": "Mastering java +  SpringBoot :REST APIs and Microservices",
+      "issuer": "udemy",
+      "date": "2025-02",
+      "credentialId": "UC-5cd4a2be-37e4-46c2-a60e-18dbaa181b1d",
+      "url": "/udemy@springboot.jpg"
     }
+
   ]
 }
