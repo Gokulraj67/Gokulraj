@@ -115,7 +115,7 @@ const Experience = () => {
                       </div>
                       <div className="flex flex-col gap-2">
                         <Badge variant="secondary" className="w-fit">
-                          GPA: {edu.gpa}
+                          CGPA: {edu.Cgpa}
                         </Badge>
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <Calendar size={14} />

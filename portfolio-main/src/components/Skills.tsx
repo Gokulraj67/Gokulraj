@@ -70,7 +70,7 @@ const Skills = () => {
                       <div className="flex justify-between items-center">
                         <h4 className="font-medium text-foreground">{skill.name}</h4>
                         <Badge variant="secondary" className="text-xs">
-                          {skill.experience}
+                          
                         </Badge>
                       </div>
                       <div className="space-y-2">

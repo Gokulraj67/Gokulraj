@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-glow border-4 border-primary">
 <img
-  src="/profile@dp.jpg"
+  src="/public/profile@dp.jpeg"
   alt="Profile"
   className="w-full h-full object-cover"
 />
