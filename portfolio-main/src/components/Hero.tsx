@@ -2,6 +2,7 @@ import { ArrowDown, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profileData from '@/data/profile.json';
 
+
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -53,25 +54,40 @@ const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('projects')}
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
-            >
-              View My Work
-              <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={() => scrollToSection('contact')}
-              className="border-primary/20 hover:bg-primary/10"
-            >
-              Get In Touch
-              <Mail className="ml-2 h-4 w-4" />
-            </Button>
-          </div>
+        
+<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+  <Button
+    size="lg"
+    onClick={() => scrollToSection('projects')}
+    className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+  >
+    View My Work
+    <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+  </Button>
+
+  <Button
+    variant="outline"
+    size="lg"
+    onClick={() => scrollToSection('contact')}
+    className="border-primary/20 hover:bg-primary/10"
+  >
+    Get In Touch
+    <Mail className="ml-2 h-4 w-4" />
+  </Button>
+
+  <Button
+    size="lg"
+    asChild
+    className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+  >
+    <a href="/Resume@Gokulraj.pdf" download>
+      Download Resume
+      <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+    </a>
+  </Button>
+</div>
+
+
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
