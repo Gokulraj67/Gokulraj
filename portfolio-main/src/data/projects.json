@@ -1,24 +1,8 @@
 {
   "featured": [
+   
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, order management, and admin dashboard.",
-      "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
-      "technologies": ["React", "Node.js", "java", " MongoDb", "Tailwind CSS"],
-      "category": "Full Stack",
-      "image": "",
-      "liveUrl": "loading...",
-      "githubUrl": "loading...",
-      "featured": false,
-      "status": "Completed",
-      "highlights": [
-        "Mobile-responsive design",
-        "Comprehensive admin dashboard"
-      ]
-    },
-    {
-      "id": 2,
       "title": "Clothing Store Website",
       "description": "A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts.",
       "longDescription": "Created a comprehensive weather dashboard that provides detailed forecasts, historical data, and severe weather alerts. Features interactive maps and customizable widgets.",
@@ -35,14 +19,31 @@
         "Interactive User interface",
         "Push notifications for alerts"
       ]
+    },  {
+      "id": 2,
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode support.",
+      "technologies": ["React", "Tailwind CSS", "vite"],
+      "category": "Frontend",
+      "image": "/Project_Images/PortFolio_Website.png",
+      "liveUrl": "https://gokulraj-profile.netlify.app/",
+      "githubUrl": "https://github.com/Gokulraj67/Gokulraj",
+      "featured": false,
+      "status": "Completed",
+      "highlights": [
+        "Progressive Web App ",
+        "Online functionality",
+        "Interactive User interface",
+        "Push notifications for alerts"
+      ]
     },
      {
-      "id": 4,
+      "id": 3,
       "title": "Quotes Blog Site",
-      "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, order management, and admin dashboard.",
+      "description": "Kadhalin Kaadhali is a Tamil quotes-sharing platform where users can explore, share, and express their emotions through words. It serves as a creative space for publishing personal thoughts, life lessons, love notes, poetry, and motivational messages in Tamil.",
       "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
       "technologies": ["React", "Supabase", "java", " SQL", "Tailwind CSS"],
-      "category": "Full Stack",
+      "category": "Backend",
       "image": "/Project_Images/Quotes Manager.png",
       "liveUrl": "https://kadhalinkaadhali.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/kaadhalin_kaadhali",
@@ -54,9 +55,26 @@
         "Comprehensive admin dashboard"
       ]
     },
- {
+     {
+      "id": 4,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, order management, and admin dashboard.",
+      "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
+      "technologies": ["React", "Node.js", "java", " MongoDb", "Tailwind CSS"],
+      "category": "Full Stack",
+      "image": "",
+      "liveUrl": "loading...",
+      "githubUrl": "loading...",
+      "featured": false,
+      "status": "Completed",
+      "highlights": [
+        "Mobile-responsive design",
+        "Comprehensive admin dashboard"
+      ]
+    },
+    {
       "id": 5,
-      "title": "BangaruSamy Event Management",
+      "title": "BangaruSamy Event Management - Upcoming",
       "description": "Bangarusamy Event Management is a professional event planning and organizing platform dedicated to delivering memorable experiences. The project focuses on simplifying the process of hosting events such as weddings, corporate functions, cultural programs, and private celebrations.",
       "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
       "technologies": ["React", "Supabase", "java", " SQL", "Tailwind CSS"],
@@ -74,24 +92,7 @@
     }
   ],
   "other": [
-    {
-      "id": 3,
-      "title": "Portfolio Website",
-      "description": "A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode support.",
-      "technologies": ["React", "Tailwind CSS", "vite"],
-      "category": "Frontend",
-      "image": "/Project_Images/PortFolio_Website.png",
-      "liveUrl": "https://gokulraj-profile.netlify.app/",
-      "githubUrl": "https://github.com/Gokulraj67/Gokulraj",
-      "featured": false,
-      "status": "Completed",
-      "highlights": [
-        "Progressive Web App ",
-        "Online functionality",
-        "Interactive User interface",
-        "Push notifications for alerts"
-      ]
-    }
+  
   ],
   "categories": ["All", "Full Stack", "Frontend", "Backend", "Mobile", "Open Source"]
 }
