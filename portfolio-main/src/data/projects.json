@@ -7,10 +7,10 @@
       "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
       "technologies": ["React", "Node.js", "java", " MongoDb", "Tailwind CSS"],
       "category": "Full Stack",
-      "image": "/api/placeholder/600/400",
+      "image": "",
       "liveUrl": "loading...",
       "githubUrl": "loading...",
-      "featured": true,
+      "featured": false,
       "status": "Completed",
       "highlights": [
         "Mobile-responsive design",
@@ -24,16 +24,52 @@
       "longDescription": "Created a comprehensive weather dashboard that provides detailed forecasts, historical data, and severe weather alerts. Features interactive maps and customizable widgets.",
       "technologies": ["React", "HTML", "Css"],
       "category": "Frontend",
-      "image": "/api/placeholder/600/400",
+      "image": "/Project_Images/Clothing_Website.png",
       "liveUrl": "https://vouguevistaclothing.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/VougueVista",
-      "featured": true,
+      "featured": false,
       "status": "Completed",
       "highlights": [
         "Progressive Web App ",
         "Online functionality",
         "Interactive User interface",
         "Push notifications for alerts"
+      ]
+    },
+     {
+      "id": 4,
+      "title": "Quotes Blog Site",
+      "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, order management, and admin dashboard.",
+      "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
+      "technologies": ["React", "Supabase", "java", " SQL", "Tailwind CSS"],
+      "category": "Full Stack",
+      "image": "/Project_Images/Quotes Manager.png",
+      "liveUrl": "https://kadhalinkaadhali.netlify.app/",
+      "githubUrl": "https://github.com/Gokulraj67/kaadhalin_kaadhali",
+      "featured": false,
+      "status": "Completed",
+      "highlights": [
+        "Mobile-responsive design",
+        "Allow user to add their Quotes and delete",
+        "Comprehensive admin dashboard"
+      ]
+    },
+ {
+      "id": 5,
+      "title": "BangaruSamy Event Management",
+      "description": "Bangarusamy Event Management is a professional event planning and organizing platform dedicated to delivering memorable experiences. The project focuses on simplifying the process of hosting events such as weddings, corporate functions, cultural programs, and private celebrations.",
+      "longDescription": "Built a comprehensive e-commerce platform that handles everything from product catalog to payment processing. Implemented advanced features like inventory management, order tracking, and analytics dashboard for store owners.",
+      "technologies": ["React", "Supabase", "java", " SQL", "Tailwind CSS"],
+      "category": "Full Stack",
+      "image": "/Project_Images/Event_Management.png",
+      "liveUrl": "",
+      "githubUrl": "",
+      "featured": true,
+      "status": "Completed",
+      "highlights": [
+        "Mobile-responsive design",
+        "Allow user to add their Quotes and delete",
+        "Comprehensive admin dashboard"
       ]
     }
   ],
@@ -44,10 +80,10 @@
       "description": "A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode support.",
       "technologies": ["React", "Tailwind CSS", "vite"],
       "category": "Frontend",
-      "image": "/api/placeholder/400/300",
+      "image": "/Project_Images/PortFolio_Website.png",
       "liveUrl": "https://gokulraj-profile.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/Gokulraj",
-      "featured": true,
+      "featured": false,
       "status": "Completed",
       "highlights": [
         "Progressive Web App ",

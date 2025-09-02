@@ -48,15 +48,9 @@ const Projects = () => {
           {displayedProjects.map((project) => (
             <Card key={project.id} className="group hover:shadow-card transition-all duration-300 border-primary/10 overflow-hidden">
               {/* Project Image */}
+              {/* Project Image */}
               <div className="aspect-video bg-gradient-primary/10 relative overflow-hidden">
-                <div className="w-full h-full bg-gradient-primary/20 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-primary/30 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <span className="text-xl font-bold text-primary">{project.title.charAt(0)}</span>
-                    </div>
-                    <p className="text-sm text-muted-foreground">Project Preview</p>
-                  </div>
-                </div>
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
                 {project.featured && (
                   <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
                     Featured
