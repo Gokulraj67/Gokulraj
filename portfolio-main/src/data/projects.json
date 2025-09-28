@@ -11,7 +11,7 @@
       "image": "/Project_Images/Clothing_Website.png",
       "liveUrl": "https://vouguevistaclothing.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/VougueVista",
-      "featured": false,
+      "featured": true,
       "status": "Completed",
       "highlights": [
         "Progressive Web App ",
@@ -28,7 +28,7 @@
       "image": "/Project_Images/PortFolio_Website.png",
       "liveUrl": "https://gokulraj-profile.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/Gokulraj",
-      "featured": false,
+      "featured": true,
       "status": "Completed",
       "highlights": [
         "Progressive Web App ",
@@ -47,7 +47,7 @@
       "image": "/Project_Images/Quotes Manager.png",
       "liveUrl": "https://kadhalinkaadhali.netlify.app/",
       "githubUrl": "https://github.com/Gokulraj67/kaadhalin_kaadhali",
-      "featured": false,
+      "featured": true,
       "status": "Completed",
       "highlights": [
         "Mobile-responsive design",
@@ -65,7 +65,7 @@
       "image": "",
       "liveUrl": "loading...",
       "githubUrl": "loading...",
-      "featured": false,
+      "featured": true,
       "status": "Completed",
       "highlights": [
         "Mobile-responsive design",
@@ -88,6 +88,24 @@
         "Mobile-responsive design",
         "Allow user to add their Quotes and delete",
         "Comprehensive admin dashboard"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Payroll Management System",
+      "description": "Payroll System to handling larger employees database.",
+      "longDescription": "It converts larger csv data to the mysql database and handles the payroll of the employees.",
+      "technologies": ["React", "SpringBoot","SpringBatch", "java", " SQL", "Tailwind CSS"],
+      "category": "Backend",
+      "image": "/Project_Images/spring batch.png",
+      "liveUrl": "https://github.com/Gokulraj67/Payroll_System.git",
+      "githubUrl": "https://github.com/Gokulraj67/Payroll_System.git",
+      "featured": true,
+      "status": "Completed",
+      "highlights": [
+        "Handles larger employees database",
+        "Transforms csv to mysql database",
+        "Effective payroll management"
       ]
     }
   ],
